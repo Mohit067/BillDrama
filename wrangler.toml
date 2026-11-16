@@ -1,0 +1,7 @@
+# Cloudflare Pages project config (used by `wrangler pages deploy` / `wrangler pages dev`).
+# If you deploy through the Cloudflare dashboard's Git integration instead, use:
+#   Build command:          npm run build
+#   Build output directory: out
+name = "billdrama"
+pages_build_output_dir = "out"
+compatibility_date = "2026-11-01"

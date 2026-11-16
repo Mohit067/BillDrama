@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "description": "BillDrama – The Smart Trip Expense Splitter",
+  "engines": {
+    "node": ">=20.9"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "preview": "npx --yes wrangler pages dev",
+    "deploy": "npm run build && npx --yes wrangler pages deploy",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest"
